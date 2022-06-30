@@ -5,6 +5,9 @@
  Keep your data, control your data. 
  Only you can unlock your files, and noone else has them.
  
+ ![In-app Password manager vault](url "Images/vault.png")
+ 
+ 
  ## Download
  The password manager can be downloaded [from here](Downloads/LocalPasswordManager.jar), or compiled from the source code provided.
  
