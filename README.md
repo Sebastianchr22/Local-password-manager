@@ -5,6 +5,9 @@
  Keep your data, control your data. 
  Only you can unlock your files, and noone else has them.
  
+ ## Download
+ The password manager can be downloaded [from here](Downloads/Local-password-manager.jar)
+ 
  ## Features
  These are the features of the password manager
  
