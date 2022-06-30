@@ -69,9 +69,9 @@
                   <TextField fx:id="UsernameField" promptText="Username" styleClass="username" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <PasswordField fx:id="PasswordField" maxHeight="25.0" onKeyPressed="#KeyPressed" prefHeight="25.0" promptText="Password" styleClass="password" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
                   <Button id="confirm" fx:id="LoginButton" mnemonicParsing="false" onAction="#LoginPressed" prefHeight="40.0" prefWidth="436.0" text="Login" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
-                  <CheckBox id="check" fx:id="RememberUsername" mnemonicParsing="false" selected="true" text="Remember username" textFill="#ffffffcc" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                  <CheckBox id="check" fx:id="RememberUsername" mnemonicParsing="false" selected="true" text="Remember username" textFill="#2c2c2ccc" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
                   <Text fx:id="IncorrectInputText" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="Incorrect username or password, try again." visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="TOP" />
-                  <Text fill="#ffffffc9" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="createUserPrompt" text="Haven't already created a user?" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+                  <Text fill="#363636c9" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="createUserPrompt" text="Haven't already created a user?" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
                   <Button id="confirm_secondary" mnemonicParsing="false" onAction="#RegisterButtonPressed" prefHeight="48.0" prefWidth="216.0" text="Create a user" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="TOP" />
                 </children>
             </GridPane>
