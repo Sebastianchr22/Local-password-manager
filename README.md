@@ -6,7 +6,12 @@
  Only you can unlock your files, and noone else has them.
  
  ## Download
- The password manager can be downloaded [from here](Downloads/LocalPasswordManager.jar)
+ The password manager can be downloaded [from here](Downloads/LocalPasswordManager.jar), or compiled from the source code provided.
+ 
+ 
+ ## Open source
+ I urge every user to browse through the source code of any open source project to ensure any claims made, lucky for you this project is fairly light on code.
+ 
  
  ## Features
  These are the features of the password manager
@@ -23,3 +28,9 @@
  
  ### Locking
  The password manager contains a button to lock up the application requiring the user to login again. This is to avoid the need of closing the password manager once unattended. 
+ 
+ 
+ ### Compiled .jar file
+ Once downloaded, use your terminal to enter
+ 
+   ''' java -jar <folder>/LocalPasswordManager.jar '''
