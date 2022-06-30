@@ -6,7 +6,7 @@
  Only you can unlock your files, and noone else has them.
  
  ## Download
- The password manager can be downloaded [from here](Downloads/Local-password-manager.jar)
+ The password manager can be downloaded [from here](Downloads/LocalPasswordManager.jar)
  
  ## Features
  These are the features of the password manager
