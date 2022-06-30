@@ -5,12 +5,8 @@
 package ote.passmanager;
 
 import Backend.BackendAccess;
-import Backend.Encryption;
-import Backend.UserHandler;
 import java.io.IOException;
 import java.net.URL;
-import java.security.NoSuchAlgorithmException;
-import java.security.spec.InvalidKeySpecException;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
