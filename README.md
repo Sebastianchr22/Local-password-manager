@@ -33,4 +33,4 @@
  ### Compiled .jar file
  Once downloaded, use your terminal to enter
  
-   ''' java -jar <folder>/LocalPasswordManager.jar '''
+ ```java -jar <folder>/LocalPasswordManager.jar ```
