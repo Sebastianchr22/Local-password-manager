@@ -1,0 +1,84 @@
+/*
+    --primary:    #BB86FC;
+    --primary2:   #3700B3;
+    --secondary:  #03DAC5;
+    --surface:    #121212;
+    --error:      #CF6679;
+*/
+
+.background{
+    -fx-background-color: #121212;
+    -fx-font-size: 10pt;
+    -fx-font-family: "Courier New";
+    -fx-base: white;
+    -fx-background: white;
+}
+
+#input{
+    -fx-background-color:transparent;
+    -fx-border-style: solid;
+    -fx-border-width:0px 0px 1px 0px;
+    -fx-border-color:white;
+}
+#input:active{
+    -fx-border-color: #3700B3;
+}
+
+#confirm{
+    -fx-text-fill: #fff;
+    -fx-background-color: #3700B3;
+    -fx-border-radius: 0;
+    -fx-padding: 5;
+}
+#confirm_secondary{
+    -fx-text-fill: #fff;
+    -fx-background-color: #03DAC5;
+    -fx-border-radius: 0;
+    -fx-padding: 5;
+}
+#back{
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-padding: 5;
+}
+#back:hover{
+    -fx-background-color: #3700B3;
+}
+#error{
+    -fx-text-fill: #CF6679;
+}
+
+
+
+
+
+#check .box {
+    -fx-background-color: transparent;
+    -fx-border-style:solid;
+    -fx-border-color:#3700B3;
+    -fx-border-radius:30px;
+    -fx-border-width:2px; 
+}
+#check:selected .box {
+    -fx-background-color: #3700B3;
+    -fx-background-radius:30px;
+}
+#check .mark {
+    -fx-background-color: transparent;
+    -fx-text-fill:white;
+}
+#check:checked ~ .box {
+    border: solid #c6c253;
+    border-width: 0 3px 3px 0;
+}
+#check:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
