@@ -1,5 +1,5 @@
-# Local-Password-Manager
- A complete password manager with local password encrypted storage.
+# Local Password Manager
+ A complete open-source password manager with local password encrypted storage.
 
  It allows you to create and store passwords, locally and securely.
  Keep your data, control your data. 
