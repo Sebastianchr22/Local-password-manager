@@ -297,6 +297,11 @@ public class MainController implements Initializable {
         resetTextInputs();
     }
     
+    @FXML
+    private void generateForNewPassword(ActionEvent event) {
+        this.NewSiteKeyPassword.setText(this.backend.generatePassword((int) PasswordLengthSlider.getValue(), IncludeNumbers.isSelected(), IncludeSpecialChars.isSelected()));
+    }
+            
     private void resetTextInputs(){
         NewSiteKeyUsername.setText("");
         NewSiteKeyPassword.setText("");
